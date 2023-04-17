@@ -1,0 +1,7 @@
+<p>templatedriven works!</p>
+<form #registrationForm="ngForm"> TEMPLATE <br>
+
+    <input name="one" required="required" [(ngModel)]="hh" type="text"><br><br>
+    <input name="two" [(ngModel)]="gg" type="text">
+    <input type="button"value="ENTER" (click)="form(registrationForm)">
+</form>

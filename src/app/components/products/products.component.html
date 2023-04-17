@@ -1,0 +1,23 @@
+
+<div *ngFor="let a of Moblies"></div>
+<table border="10" >
+    <tr>
+        <th>model</th>
+        <th>price</th>
+        <th>processor</th>
+        <th>rating</th>
+        
+    </tr>
+
+    <tr *ngFor="let a of Moblies">
+         <td>{{a.model}}</td>
+        <td>{{a.price}}</td>
+         <td>{{a.processor}}</td>
+        <td>{{a.rating}}</td>
+    </tr>
+</table>
+
+<!-- <app-rating></app-rating> -->
+<app-rating [value]="3" ></app-rating>
+
+<p>products works!</p>

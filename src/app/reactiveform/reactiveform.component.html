@@ -1,0 +1,10 @@
+<p>reactiveform works!</p>
+<form >
+    <input [formControl]="username">
+    <input type="button" value="ok" (click)="fu()">
+</form>
+<form [formGroup]="registerationform">
+<input formControlName="username">
+<input formControlName="password">
+<input type="button" value="click" (click)="cli()">
+</form>
